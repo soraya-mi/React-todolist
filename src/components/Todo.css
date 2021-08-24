@@ -1,0 +1,42 @@
+.todoList {
+    margin: 1em;
+}
+
+.todoList input {
+    width: 15%;
+    height: 2em;
+    border: none;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    outline: none;
+}
+
+.todoList button {
+    height: 2.2em;
+    width: auto;
+    border-radius: 3px;
+    margin-left: 10px;
+    background: none;
+    background-color: #01a9f4;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+
+.todoList ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+margin-top: 1rem;
+}
+.todoList ul li {
+    width:15rem;
+    margin: .2rem;
+    padding: .5rem 1rem;
+    border:2px solid  rgb(236, 236, 236);
+    display: flex;
+    justify-content: space-between;
+
+    /*background-color: rgb(214, 214, 214);*/
+}
